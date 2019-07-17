@@ -7,7 +7,7 @@ describe Owner do
     @owner = Owner.new("Victoria")
   end
 
-  after do 
+  after do
     Owner.all.clear
     Cat.all.clear
     Dog.all.clear
